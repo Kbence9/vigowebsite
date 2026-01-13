@@ -1,0 +1,49 @@
+<Navbar sticky="top" bg="dark" variant="dark" expand="lg">
+  {/* ... marad a többi */}
+</Navbar>
+
+.hero-section {
+  position: relative;
+  background-image: url(${heroImage});
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  color: white !important;  /* Fehér szöveg */
+}
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.6);  /* Sötét overlay */
+  z-index: 1;
+}
+.hero-section > div {
+  position: relative;
+  z-index: 2;
+}
+.hero-section h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+body {
+  background: linear-gradient(to bottom, #f8f9fa, #e9ecef);
+  background-attachment: fixed;
+}
+.services-section {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  padding: 3rem;
+}
+
+
+Animációk és extra touch-ok:
+
+Tartsd az AOS-t (mirror: true jól van).
+Adj hover effekteket a képekre: transition: transform 0.3s; és :hover { transform: scale(1.05); }.
+Gombok: btn-primary helyett custom narancs akcentus: .btn-accent { background: #E67E22; border: none; }.
+Inspiráló példák
+Ha szeretnéd, kereshetek konkrét képeket modern építőipari weboldalakról (pl. hero section-ek sötét overlay-vel, narancs akcentusokkal), és mutatom őket itt. Szólj, ha igen!
+
+Próbáld ki ezeket a változtatásokat, és ha elküldöd az új screenshot-et vagy leírod, hogy néz ki, finomhangoljuk tovább. Mit gondolsz, melyik színt próbáljuk ki először (pl. sötétkék navbar + fehér hero szöveg)? 😊
