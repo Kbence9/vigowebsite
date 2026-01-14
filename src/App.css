@@ -136,3 +136,30 @@ background-color: #0f172a;
 .service-img:hover::after {
   opacity: 1;
 }
+
+.service-row {
+  background-color: #f8fafc;  /* Alap háttér */
+}
+
+.service-text-col {
+  display: flex;
+  justify-content: center;  /* Center igazítás */
+}
+
+.service-text {
+  max-width: 400px;  /* Korlátozott szélesség desktop-on */
+  padding: 1rem;  /* Belső padding */
+  background-color: #e2e8f0;  /* Szürke háttér */
+  border-radius: 8px;  /* Lekerekített sarkok */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);  /* Árnyék */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  /* Függőleges középre igazítás a tartalomnak */
+}
+
+@media (max-width: 768px) {
+  .service-text {
+    max-width: 100%;  /* Mobilra teljes szélesség */
+    height: auto;  /* Mobilra ne erőltessük a height: 100%-ot */
+  }
+}
