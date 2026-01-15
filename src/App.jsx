@@ -144,7 +144,7 @@ setRecaptchaToken(token);
           {/* Első szolgáltatás: Full-width row, kép bal, szöveg jobb */}
           <Row className="align-items-stretch mb-5 service-row" data-aos="fade-in">  
             <Col md={6} data-aos="fade-right" className="d-flex">  
-              <img src={image1} alt="Padlástér szerelés" className="img-fluid rounded service-img w-100" data-title="Tetőteri Tűzvédelem" />  
+              <img src={image1} alt="Tűzvédelem padlástérben" className="img-fluid rounded service-img w-100" data-title="Tetőteri Tűzvédelem" />  
             </Col>
             <Col md={6} data-aos="fade-left" className="service-text-col d-flex">  
               <div className="service-text mx-auto p-3 d-flex flex-column justify-content-center" style={{ maxWidth: '400px', backgroundColor: '#e2e8f0', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', height: '100%' }}>  
@@ -170,7 +170,7 @@ setRecaptchaToken(token);
           {/* Harmadik: Újra kép bal, szöveg jobb */}
           <Row className="align-items-stretch mb-5 service-row" data-aos="fade-in" data-aos-delay="400">
             <Col md={6} data-aos="fade-right" className='d-flex'>
-              <img src={image3} alt="Tűzvédelem" className="img-fluid rounded" />
+              <img src={image3} alt="Gipszkarton szerelés padlástérben" className="img-fluid rounded service-img w-100" />
             </Col>
             <Col md={6} data-aos="fade-left">
               <div className="service-text mx-auto p-3 d-flex flex-column justify-content-center" style={{ maxWidth: '400px', backgroundColor: '#e2e8f0', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', height: '100%' }}>  
@@ -189,13 +189,13 @@ setRecaptchaToken(token);
               </div>
             </Col>
             <Col md={6} data-aos="fade-left" className="d-flex">
-              <img src={image10} alt="Falak" className="img-fluid rounded" />
+              <img src={image10} alt="Falak" className="img-fluid rounded service-img w-100" />
             </Col>
           </Row>
 
           <Row className="align-items-stretch mb-5 service-row" data-aos="fade-in" data-aos-delay="400">
             <Col md={6} data-aos="fade-right" className='d-flex'>
-              <img src={image20} alt="Álmennyezet" className="img-fluid rounded" />
+              <img src={image20} alt="Álmennyezet" className="img-fluid rounded service-img w-100" />
             </Col>
             <Col md={6} data-aos="fade-left">
               <div className="service-text mx-auto p-3 d-flex flex-column justify-content-center" style={{ maxWidth: '400px', backgroundColor: '#e2e8f0', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', height: '100%' }}>  
