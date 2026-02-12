@@ -42,8 +42,8 @@ function App() {
   useEffect(() => {
     AOS.init({
       duration: 1000,
-      once: false,  // Engedélyezi az ismételt animációt
-      mirror: true,  // Animálja ki (fade-out) amikor scroll out, és be újra amikor vissza
+      once: false,  // Allows repeated animations
+      mirror: true,  // Animates out when scrolling out, and in when back
       offset: 200,  // Nagyobb offset a késleltetéshez
     });
   }, []);
@@ -330,7 +330,7 @@ setRecaptchaToken(token);
                 <p><strong>Székhely:</strong> 2900, Komárom, Sport utca 9/B</p>
                 <p><strong>Email:</strong> vigobausystem@gmail.com</p>
                 <p><strong>Telefon:</strong> +36 70 881 8473</p>
-                <p><strong>Adószám:</strong> XXXX</p>
+                <p><strong>Adószám:</strong> 25912472-2-11</p>
                 <p><strong>Ügyvezető:</strong> Krisztián-Világos István</p>
                 <p><strong>Tárhelyszolgáltató:</strong> Vercel Inc., 340 S Lemon Ave #4133, Walnut, CA 91789, USA</p>
                 <p>Az oldal tartalmáért a Vigo Bausystem felel. Minden jog fenntartva.</p>
